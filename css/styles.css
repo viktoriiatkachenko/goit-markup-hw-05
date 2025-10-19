@@ -395,6 +395,53 @@ margin-bottom: 16px;
 .link-icon-footer:focus {
         background-color: #31d0aa;;
 }
+.caption-footer {
+        font-weight: 500;
+                line-height: 1.5;
+                letter-spacing: 0.02em;
+                color: #FFFFFF;
+}
+.email-input-footer {
+        border: 1px solid #FFFFFF;
+        background-color: transparent;
+        padding-left: 16px;
+                border-radius: 4px;
+                width: 264px;
+                height: 40px;
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.email-input-footer::placeholder {
+        color: #FFFFFF;
+                font-size: 12px;
+                line-height: 2;
+                letter-spacing: 0.04em;
+}
+
+.form-footer {
+        display: flex;
+}
+.footer-subscribe-btn {
+        border-radius: 4px;
+                padding: 8px 24px;
+                min-width: 165px;
+                height: 40px;
+                background-color: #4D5AE5;
+                padding: 8px 24px;
+                font-weight: 500;
+                color: #FFFFFF;
+                        line-height: 1.5;
+                        letter-spacing: 0.04em;
+                        text-align: center;
+                        font-size: 16px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-family: "Roboto", sans-serif;
+}
+
+.footer-subscribe-icon {
+        margin-left: 16px;
+}
 /* modal */
 .backdrop {
         position: fixed;
