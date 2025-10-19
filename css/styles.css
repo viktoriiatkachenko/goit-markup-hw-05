@@ -428,6 +428,7 @@ margin-bottom: 16px;
 .form-footer {
        display: flex;
        align-items: center;
+       gap: 24px;
 }
 .footer-subscribe-btn {
         border-radius: 4px;
