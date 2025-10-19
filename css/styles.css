@@ -417,12 +417,16 @@ margin-bottom: 16px;
                 width: 264px;
                 height: 40px;
                 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+                font-size: 12px;
+                line-height: 2;
+                letter-spacing: 0.04em;
+                color: #ffffff;
 
                 box-sizing: border-box;
                 display: block;
 }
 .email-input-footer::placeholder {
-        color: #FFFFFF;
+        color: #ffffff;
                 font-size: 12px;
                 line-height: 2;
                 letter-spacing: 0.04em;
@@ -450,6 +454,8 @@ margin-bottom: 16px;
                         justify-content: center;
                         align-items: center;
                         font-family: "Roboto", sans-serif;
+                        cursor: pointer;
+                        border: none;
 }
 .footer-form-label {
         display: block;
