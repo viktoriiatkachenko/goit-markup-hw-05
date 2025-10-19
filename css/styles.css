@@ -387,6 +387,7 @@ margin-bottom: 16px;
                 letter-spacing: 0.02em;
                 color: #FFFFFF;
                 margin-bottom: 16px;
+                
 }
 .footer-logo-wrapper {
         margin-right: 120px;
@@ -395,11 +396,18 @@ margin-bottom: 16px;
 .link-icon-footer:focus {
         background-color: #31d0aa;;
 }
+.subscribe-wrapper-footer {
+        margin-left: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
 .caption-footer {
         font-weight: 500;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
                 color: #FFFFFF;
+                margin-bottom: 16px;
 }
 .email-input-footer {
         border: 1px solid #FFFFFF;
@@ -418,7 +426,8 @@ margin-bottom: 16px;
 }
 
 .form-footer {
-        display: flex;
+       display: flex;
+       align-items: center;
 }
 .footer-subscribe-btn {
         border-radius: 4px;
@@ -438,9 +447,12 @@ margin-bottom: 16px;
                         align-items: center;
                         font-family: "Roboto", sans-serif;
 }
-
+.footer-form-label {
+        display: block;
+}
 .footer-subscribe-icon {
         margin-left: 16px;
+        fill: currentColor;
 }
 /* modal */
 .backdrop {
